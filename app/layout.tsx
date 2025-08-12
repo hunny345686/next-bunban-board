@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kuban Board",
+  title: "Kanban Board",
   description: "A simple Kanban board built with Next.js and Pangea DND",
 };
 
