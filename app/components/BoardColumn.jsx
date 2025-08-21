@@ -3,7 +3,7 @@ import { Edit, Trash } from "lucide-react";
 import Modal from "./DeatilModal";
 import { useState } from "react";
 
-export default function BoardColumn({ column, deleteCard, editCard }: any) {
+export default function BoardColumn({ column, deleteCard, editCard }) {
   const [selectedItem, setSelectedItem] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
